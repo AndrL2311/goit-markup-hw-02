@@ -1,17 +1,37 @@
+/* Константы */
+:root{
+  --main-fond
+  --secondari-font
+}
+/* Базовый сброс */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: normal;
+}
+
 body {
   font-family: Roboto, sans-serif;
   background-color: #e5e5e5;
 }
+
 /* Логотип */
-.link-logo {
+.logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #000000;
-  text-decoration: none;
-}
-.link-logo-web {
+  line-height: 1.192;
   color: #2196f3;
 }
+.logo-studio-header {
+  color: #000000;
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+/* Конец Логотип */
