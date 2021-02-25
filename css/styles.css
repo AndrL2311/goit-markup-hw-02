@@ -29,7 +29,7 @@ body {
   font-family: var(--main-fond);
   background-color: var(--background-color);
 }
-/* index.html */
+
 /* header */
 /* Логотип */
 .logo {
@@ -153,6 +153,7 @@ body {
 .button:focus {
   background-color: var(--botton-accent-color);
 }
+/*Конец main index.html*/
 
 /* footer */
 .address-footer-link {
