@@ -1,9 +1,11 @@
-/* Константы */
-:root{
-  --main-fond
-  --secondari-font
+/* Переменные */
+:root {
+  --main-fond: Roboto, sans-serif;
+  --secondari-font: Raleway, sans-serif;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
 }
-/* Конец константы */
+/* Конец Переменные */
 /* Базовый сброс */
 .link {
   text-decoration: none;
@@ -17,17 +19,16 @@
 /* Конец базовый сброс */
 
 body {
-  font-family: Roboto, sans-serif;
-  background-color: #e5e5e5;
+  font-family: var(--main-fond);
+  background-color: var(--background-color);
 }
-
+/* header */
 /* Логотип */
 .logo {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: var(--secondari-font);
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   color: #2196f3;
 }
 .logo-studio-header {
@@ -36,4 +37,49 @@ body {
 .logo-studio-footer {
   color: #ffffff;
 }
-/* Конец Логотип */
+
+/* Навигация */
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/* Телефон и mail */
+.kontakt-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.kontakt-link:hover,
+.kontakt-link:focus {
+  color: var(--accent-color);
+}
+/* Конец header */
+
+/* footer */
+.address-footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-00-footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/* Конец footer */
