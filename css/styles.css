@@ -3,6 +3,7 @@
   --main-fond
   --secondari-font
 }
+/* Конец константы */
 /* Базовый сброс */
 .link {
   text-decoration: none;
@@ -13,6 +14,7 @@
 .address {
   font-style: normal;
 }
+/* Конец базовый сброс */
 
 body {
   font-family: Roboto, sans-serif;
