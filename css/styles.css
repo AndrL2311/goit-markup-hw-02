@@ -97,7 +97,6 @@ body {
 }
 
 .text-feature {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -123,7 +122,6 @@ body {
 }
 
 .text-workman {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -157,7 +155,6 @@ body {
 
 /* footer */
 .address-footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -165,11 +162,17 @@ body {
 }
 
 .address-00-footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color1);
+}
+
+.address-footer-link:hover,
+.address-footer-link:focus,
+.address-00-footer-link:hover,
+.address-00-footer-link:focus {
+  color: var(--accent-color);
 }
 /* Конец footer */
 
@@ -183,7 +186,6 @@ body {
 }
 
 .text-project-direction {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
